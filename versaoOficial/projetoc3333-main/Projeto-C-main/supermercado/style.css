@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;600&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+header {
+    background-color: #d7e3d3;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.link-item-list{
+    text-decoration:none;
+}
+
+.container-header{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.container-img{
+    margin-left:6rem;
+}
+
+.navigation {
+    list-style-type: none;
+    margin-top:1.7rem;
+    margin-right:4rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.item-list{
+    color:#0f6a08;
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-texto-descricao{
+    margin-top:15rem;
+    display:flex;
+    justify-content:space-around;
+}
+
+.texto-descricao{
+    margin-right: 30rem;
+    background-color: #217517;
+    padding:3rem;
+    border-radius:2rem;
+}
+
+.img-texto-descricao{
+    display: flex;
+}
+
+.img-descricao{
+    border-radius:10rem;
+}
+
+.descricao{
+    font-size:1.1rem;
+    color:#ffffff;
+}
+.content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            text-align: justify;
+            color: #333;
+}
+
+/* Quem somos */
+
+.nossa-loja{
+    font-size:20rem;
+    margin-top:10rem;
+    margin-left:10rem;
+    margin-right:10rem;
+    padding:2rem, 2rem, 2rem, 2rem;
+    background-color:#1231;
+    padding:2rem;
+    border-radius:2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top:3rem
+}
+
+.grid-item {
+    text-align: center;
+    margin-top:2rem;
+    box-sizing: border-box;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2rem;
+    padding:10px;
+}
+
+.descricao-grid-item{
+    font-weight:2rem;
+    font-size:20px;
+}
+
+/* Atendimento CSS */
+
+.fale-conosco{
+    color:#0f6a08;
+}
+
+
+.atendimento-container{
+    margin-top:4rem;
+    margin-left:10rem;
+}
+
+.container-radio{
+    margin-left:10rem;
+    margin-top:1.2rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #d7e3d3;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color:#0f6a08;
+    margin-bottom: 5px;
+}
+
+footer a{
+    text-decoration:none;
+
+}
